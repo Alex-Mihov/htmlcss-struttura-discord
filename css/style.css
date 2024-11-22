@@ -116,6 +116,27 @@ ul {
     margin: 30px 0;
 }
 
+/* sezione info */
+
+.info {
+    background-color: #23272a;
+    border-bottom: 2px solid white;
+}
+
+.info-icon {
+    width: 30%;
+    background-color: #f08180;
+    border: 2px dashed black ;
+    margin: 5px 0 15px 0;
+}
+
+.info-spec {
+    background-color: #20b3aa;
+    width: 10%;
+    border: 2px dashed white;
+    margin: 5px 0 15px 0;
+}
+
 /* sezione footer */
 
 footer {
