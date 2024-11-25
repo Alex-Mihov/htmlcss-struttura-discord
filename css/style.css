@@ -6,7 +6,7 @@
 }
 
 /* regole header */
-header {
+nav {
     background-color: #add8e7;
     height: 70px;
     display: flex;
@@ -116,11 +116,25 @@ ul {
     margin: 30px 0;
 }
 
-/* sezione info */
 
-.info {
+/* sezione footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #23272a;
-    border-bottom: 2px solid white;
+    
+
+}
+
+.top-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    margin: 30px 0;
+
 }
 
 .info-icon {
@@ -137,31 +151,25 @@ ul {
     margin: 5px 0 15px 0;
 }
 
-/* sezione footer */
-
-footer {
-    display: flex;
-    justify-content: center;
-    background-color: #23272a;
-    height: 80px;
-}
-.dis-footer {
+.bottom-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
     background-color: #7fffd4;
-    margin: 20px 0 0 0;
+    height: 70px;
+    width: 70%;
+    margin-top: 20px;
 }
 
 .logo-footer {
-    background-color: #fcb5c1;
-    border: 2px dashed black ;
-    padding: 2px 5px;
+    font-size: 20px;
+    background-color: #fbb6c4;
+    padding: 5px;
 }
 
 .bt-footer {
-    background-color: #fcb5c1;
-    border: 2px dashed black ;
-    padding: 2px 5px;
+    font-size: 20px;
+    background-color: #fbb6c4;
+    padding: 5px;
+    border: none;
 }
